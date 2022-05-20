@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+    scrollbar-face-color: linear-gradient(0deg, rgba(255,255,255,1) 6%, rgba(255,0,0,1) 14%, rgba(255,255,255,1) 23%, rgba(244,0,0,1) 35%, rgba(255,255,255,1) 44%);;
+ }
+ 
+ 
+ 
+ #logo {
+     height: 100px;
+     width: 100px;
+     margin: 15px;
+ }
+ 
+ nav {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100%;
+ 
+ }
+ 
+ #menu {
+     display: flex;
+     background-color: #bf2626;
+     height: 55px;
+     width: 25%;
+     margin-top: 50px;
+     list-style: none;
+     text-align:center;
+ }
+ 
+ li {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     padding: 10px;
+ 
+ }
+ 
+ li:hover {
+     background-color: tomato;
+     text-shadow: 3px 3px 3px brown;
+     border-radius: 5%;
+ }
+ a {
+     color: white;
+     text-decoration: none;
+    
+ }
+ 
+ .bnt-style {
+     background-color: crimson;
+     color: white;
+     height: 20px;
+     border: 1px solid black;
+     border-radius: 20%;
+ }
+ 
+ .bnt-style:hover {
+    background-color: tomato;
+    text-shadow: 3px 3px 3px brown;
+ }
+
+ #superior {
+     background-color: black;
+     width: 100%;
+     color: white;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 20px;
+     justify-content: center;
+     align-content: center ;
+     border-bottom:2px groove crimson;
+     
+ }
+ 
+ #superior>img {
+     height: 50px;
+     width: 50px;
+     margin-left: 10px;
+ 
+ }
+ 
+ .opcoes {
+     background-color: white;
+     margin: 10px;
+     width: 15%
+ }
+ 
+ #whats {
+     position: fixed;
+     width: 60px;
+     height: 60px;
+     bottom: 40px;
+     right: 40px;
+     z-index: 1000;
+     clip-path: circle(50% at 50% 50%
+     );
+ }
+ 
+ #parallax {
+     background-image: url(img/fundo.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 25%;
+     margin-bottom: 5%;
+     border-bottom: 5px solid rgb(250, 41, 4);
+     border-top: 5px solid crimson;
+ 
+     }
+ 
+    #container {
+     background-color: rgba(0, 0, 0, 0.671);
+     background-attachment: fixed;
+     background-repeat: repeat;
+     width: cover 100%;
+     height: 100%;
+     text-align: center;
+     color: white;
+    }
+ 
+    #conteudo {
+        height: 60%;
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+        text-align: center;
+        margin-bottom: 3%;
+       
+    }
+ 
+ 
+    .boxs:hover{
+        box-shadow: 5px 5px 5px white;
+        text-shadow: 5px 5px 5px green;
+    }
+
+    #galeria{
+        width: 70%;
+        border: 2px solid white;
+        border-radius: 10%;
+        color: white;
+        display: grid;
+        grid-row: 1fr 1fr;
+        text-align: center;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+
+    #faqs {
+        width: 70%;
+        border: 2px solid white;
+        border-radius: 10%;
+        color: white;
+        display: grid;
+        grid-row: 1fr 1fr;
+        text-align: left;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        margin-bottom: 5%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border-top:2px groove rgb(250, 4, 4);
+}

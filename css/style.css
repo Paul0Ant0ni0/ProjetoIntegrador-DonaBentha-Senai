@@ -1,0 +1,208 @@
+@font-face {
+    font-family: [CandyPop];
+    src: url(fonts/Candy_Pop!-demo-font.ttf);
+}
+
+body {
+   margin: 0px;
+   padding: 0px;
+   background-color: #000000;
+}
+
+#text-center {
+    font-family: CandyPop;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#menu {
+    display: flex;
+    background-color: #bf2626;
+    height: 55px;
+    width: 25%;
+    margin-top: 50px;
+    list-style: none;
+    text-align:center;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+li:hover {
+    background-color: tomato;
+    text-shadow: 3px 3px 3px brown;
+    border-radius: 5%;
+}
+a {
+    color: white;
+    text-decoration: none;
+   
+}
+a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.bnt, li , button {
+    display: inline;
+    padding; 5px;
+}
+.bnt-style {
+    background-color: crimson;
+    color: white;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 20%;
+    float: left;
+}
+
+.bnt-style:hover {
+    background-color: tomato;
+    text-shadow: 3px 3px 3px brown;
+}
+
+
+#superior {
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-content: center ;
+    border-bottom:2px groove crimson;
+    
+}
+
+#superior>img {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+
+}
+
+.opcoes {
+    background-color: white;
+    margin: 10px;
+    width: 15%
+}
+
+#whats {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
+    clip-path: circle(50% at 50% 50%
+    );
+}
+
+#parallax {
+	background-image: url(img/bg.jpeg);
+	background-attachment: fixed;
+    background-size: cover;
+	background-repeat: no-repeat;
+    height: 25%;
+	margin-bottom: -10px;
+    border-bottom: 5px solid rgb(250, 41, 4);
+    border-top: 5px solid crimson;
+
+	
+}
+
+#container {
+	background-color: rgba(0, 0, 0, 0.671);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	width: cover 100%;
+	height: 100%;
+	text-align: center;
+	color: white;
+}
+
+
+video {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid tomato;
+}
+
+#conteudo {
+    text-align:center;
+    color:white
+}
+
+#catalogo {
+    margin: 25px;
+    text-align: center;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+    padding: 15px;
+}
+
+.produtos {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%,
+    rgba(244,0,0,0.5858718487394958) 100%);
+    margin: 10px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+.produtos:nth-child(2n):hover{
+    box-shadow: 5px 10px 10px rgb(29, 248, 0);
+    border-bottom: 2px groove rgb(255, 172, 172);
+    border-top: 2px groove rgb(255, 255, 180);
+}
+
+.produtos:nth-child(2n+1):hover{
+    box-shadow: 5px 10px 10px rgb(255, 0, 0);
+    border-bottom: 2px groove rgb(255, 172, 172);
+    border-top: 2px groove rgb(255, 255, 180);
+}
+
+.produtos>button{
+    background-color: black ;
+    color:white;
+    border-radius: 13px;
+}
+
+
+
+.rodap{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border-top:2px groove rgb(250, 4, 4);
+}

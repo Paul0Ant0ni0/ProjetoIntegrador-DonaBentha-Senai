@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+    box-sizing: border-box;
+ }
+ 
+ 
+ 
+ #logo {
+     height: 100px;
+     width: 100px;
+     margin: 15px;
+ }
+ 
+ nav {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100%;
+
+ }
+ 
+ #menu {
+    display: flex;
+    background-color: #bf2626;
+    height: 55px;
+    width: 25%;
+    margin-top: 50px;
+    list-style: none;
+    text-align:center;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+li:hover {
+    background-color: tomato;
+    text-shadow: 3px 3px 3px brown;
+    border-radius: 5%;
+}
+a {
+    color: white;
+    text-decoration: none;
+   
+}
+ 
+ .bnt-style {
+     background-color: crimson;
+     color: white;
+     height: 20px;
+     border: 1px solid black;
+     border-radius: 20%;
+     left: 45%;
+ }
+ 
+ .bnt-style:hover {
+    background-color: tomato;
+    text-shadow: 3px 3px 3px brown;
+ }
+
+ #superior {
+     background-color: black;
+     width: 100%;
+     color: white;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 20px;
+     justify-content: center;
+     align-content: center ;
+     border-bottom:2px groove crimson;
+     
+ }
+ 
+ #superior>img {
+     height: 50px;
+     width: 50px;
+     margin-left: 10px;
+ 
+ }
+ 
+ .opcoes {
+     background-color: white;
+     margin: 10px;
+     width: 15%
+ }
+ 
+ #whats {
+     position: fixed;
+     width: 60px;
+     height: 60px;
+     bottom: 40px;
+     right: 40px;
+     z-index: 1000;
+     clip-path: circle(50% at 50% 50%
+     );
+ }
+ 
+ #parallax {
+     background-image: url(img/fundo.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 25%;
+     margin-bottom: 5%;
+     border-bottom: 5px solid rgb(250, 41, 4);
+     border-top: 5px solid crimson;
+ 
+     }
+ 
+    #container {
+     background-color: rgba(0, 0, 0, 0.671);
+     background-attachment: fixed;
+     background-repeat: repeat;
+     width: cover 100%;
+     height: 100%;
+     text-align: center;
+     color: white;
+    }
+ 
+    #conteudo {
+        height: 60%;
+        color: white;
+        text-align: center;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: row;
+        row-gap: 5px;
+        padding: 10px;
+       
+    }
+
+    #formul {
+        color: white;
+        width: 30%;
+        border: 5px solid white;
+        border-radius: 4%;
+        margin-left: 10px;
+
+    }
+
+    #formul>button, select {
+        margin-left: 10px;
+    }
+ 
+    input, textarea {
+        width: 250px;
+        margin-left: 20px;
+        margin-top: 10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border: 1pz solid;
+    }
+
+    textarea {
+        width: 295px;
+        height: 180px;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        border-top:2px groove rgb(250, 4, 4);
+    }
